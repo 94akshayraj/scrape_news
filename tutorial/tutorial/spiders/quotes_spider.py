@@ -1,11 +1,5 @@
 import scrapy
 import json
-import re
-from bs4 import BeautifulSoup
-import asyncio
-import aiohttp
-import ssl
-import nest_asyncio
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
